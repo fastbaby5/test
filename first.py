@@ -57,3 +57,8 @@ print ("hello, world!")
 # Dictionary 
 name = {"harry":"amman", "baha":"turkey" , "suhaib":"istanbul"}
 print(name["baha"])
+
+
+
+#sdfsdfsdf
+baha=["sdfsd","sdfasd","sdfsdf"]
