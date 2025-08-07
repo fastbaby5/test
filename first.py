@@ -130,23 +130,48 @@
 
 ############### lambda ########################
 
-people = [{"name" : "c", "house": "b"},
-          {"name" : "b", "house": "a"},
-          {"name" : "a", "house": "c"},
-]
+# people = [{"name" : "c", "house": "b"},
+#           {"name" : "b", "house": "a"},
+#           {"name" : "a", "house": "c"},
+# ]
 
-def f(person):
-    return person ["name"]
+# def f(person):
+#     return person ["name"]
     
-people.sort(key=f)
-print(people)
+# people.sort(key=f)
+# print(people)
 
-# better way to maintain the same result is by using lambda and there is how.
+# # better way to maintain the same result is by using lambda and there is how.
 
-people = [{"name" : "c", "house": "b"},
-          {"name" : "b", "house": "a"},
-          {"name" : "a", "house": "c"},
-]
+# people = [{"name" : "c", "house": "b"},
+#           {"name" : "b", "house": "a"},
+#           {"name" : "a", "house": "c"},
+# ]
 
-people.sort(key=lambda person : person ["name"])
-print(people)
+# people.sort(key=lambda person : person ["name"])
+# print(people)
+
+
+########### Exceptions ##################
+# try:
+#     the function
+# except the Exception:
+#     print("f")
+#     sys.exit(1)
+
+########################
+# import sys
+# try:
+#     x = int(input("x: "))
+#     y = int(input("y: "))
+# except ValueError:
+#     print("cannot input string value!")
+#     sys.exit(1)
+# try:
+#     result = x / y 
+# except ZeroDivisionError:
+#     print("error cant devide by 0!")
+#     sys.exit(1)
+
+# print(f"{x} / {y} = {result}")
+
